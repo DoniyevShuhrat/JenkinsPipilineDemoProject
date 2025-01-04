@@ -1,0 +1,9 @@
+{
+  "platformName": "Android",
+  "deviceName": "988a1b33375a303758",
+  "udid": "988a1b33375a303758",
+  "automationName": "UiAutomator2",
+  "appPackage": "com.oson",
+  "appActivity": "com.oson.MainActivity",
+  "noReset": "true"
+}

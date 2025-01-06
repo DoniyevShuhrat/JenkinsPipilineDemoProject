@@ -1,16 +1,9 @@
 pipeline{
 	agent any 
-	// 1) Global Tools'da "Maven 4.0" deb nomlagan maven instalatsiya
-    tools {
-        maven 'Maven 4.0'
-    }
+	tools{
+		maven 'Maven 4.0'
+	}
 	stages{
-		stage('Version') {
-            steps {
-                // 2) Endi "mvn" PATH da mavjud bo'ladi
-                sh 'mvn --version'
-            }
-        }
 		stage('Build'){
 			steps{ 
 				echo "Building  the Code.........."
